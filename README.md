@@ -1,8 +1,8 @@
-# AirPiano - A Walabot Application
+# AirDrums - A Walabeat Application
 
-[![Piano Man - Walabot Wednesday](http://img.youtube.com/vi/3NyIKG8gZqU/0.jpg)](http://www.youtube.com/watch?v=3NyIKG8gZqU)
 
-This is a simple Walabot game application that acts as an air piano.
+
+This is a simple Walabot game application that acts as an air drums.
 
 * Works on both Windows and Linux.
 * Tested on Windows 10 and Ubuntu 16.04 LTS.
@@ -21,7 +21,7 @@ The Y axis is used to determine the exact key which will be pressed.
 1. Install the [Walabot SDK](http://walabot.com/getting-started) and the [WalabotAPI Python library](https://github.com/Walabot-Projects/Walabot-HelloWalabot#how-to-use) using pip.
 2. Download and install [PyGame](http://www.pygame.org/download.shtml).
 3. Position the Walabot as the image below.
-4. Run `AirPiano.py` and start playing! :musical_keyboard:
+4. Run `AirDrum.py` and start playing! :musical_keyboard:
 
 **IMPORTANT NOTE:** Current Walabot settings are for Walabot Pro.
 
