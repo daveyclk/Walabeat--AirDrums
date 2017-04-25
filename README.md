@@ -25,9 +25,7 @@ The Y axis is used to determine the exact key which will be pressed.
 
 **IMPORTANT NOTE:** Current Walabot settings are for Walabot Pro.
 
-#### Positioning the Walabot
 
-![Positioning the Walabot](https://raw.githubusercontent.com/Walabot-Projects/Walabot-AirPiano/master/example.png)
 
 ## Editing the code
 
