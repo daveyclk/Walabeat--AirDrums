@@ -8,7 +8,7 @@ This is a simple Walabot game application that acts as an air drums.
 * Tested on Windows 10 and Ubuntu 16.04 LTS.
 * GUI is done with the [tkinter](https://docs.python.org/3.5/library/tkinter.html) library.
 * The app's using [PyGame](http://www.pygame.org) to play the sound files.
-* Piano sound files are from [wav-piano-sound](https://github.com/pffy/wav-piano-sound).
+
 
 #### What does the Walabot Do?
 
@@ -21,7 +21,7 @@ The Y axis is used to determine the exact key which will be pressed.
 1. Install the [Walabot SDK](http://walabot.com/getting-started) and the [WalabotAPI Python library](https://github.com/Walabot-Projects/Walabot-HelloWalabot#how-to-use) using pip.
 2. Download and install [PyGame](http://www.pygame.org/download.shtml).
 3. Position the Walabot as the image below.
-4. Run `AirDrum.py` and start playing! :musical_keyboard:
+4. Run `AirDrum.py` and start playing! 
 
 **IMPORTANT NOTE:** Current Walabot settings are for Walabot Pro.
 
