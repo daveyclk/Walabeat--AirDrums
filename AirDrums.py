@@ -14,11 +14,11 @@ try:
 except NameError:
     pass
 
-R_MIN, R_MAX, R_RES = 2, 20, 2  # SetArenaR values
-THETA_MIN, THETA_MAX, THETA_RES = -5, 5, 10  # SetArenaTheta values
-PHI_MIN, PHI_MAX, PHI_RES = -80, 80, 8  # SetArenaPhi values
-TSHLD = 0.5  # SetThreshold value
-VELOCITY_THRESHOLD = 0.67  # captured vel bigger than that counts as key-press
+R_MIN, R_MAX, R_RES = 15, 25, 10  # SetArenaR values
+THETA_MIN, THETA_MAX, THETA_RES = -25, 5, 10  # SetArenaTheta values
+PHI_MIN, PHI_MAX, PHI_RES = -80, 80, 10  # SetArenaPhi values
+TSHLD = 2.5  # SetThreshold value
+VELOCITY_THRESHOLD = 0.6  # captured vel bigger than that counts as key-press
 Y_MAX = R_MAX * cos(radians(abs(THETA_MIN))) * sin(radians(PHI_MAX))
 
 IMG_PATH = join(dirname(argv[0]), 'img')  # path to images
@@ -161,10 +161,10 @@ class PianoSounds:
         """
         self.pygame = pygame
         self.pygame.init()
-        self.notes = {1: 'kick', 2: 'snare', 3: 'open', 4: 'kick', 5: 'clap', 6: 'kick', 7: 'clap'}
+        self.notes = {1: 'ride', 2: 'floortom', 3: 'tom2', 4: 'tom1', 5: 'hatopen', 6: 'snare', 7: 'kick' }
         self.sounds = [
             self.pygame.mixer.Sound(
-                join(SOUND_PATH, 'drum-'+self.notes[key+1]+'.wav')
+                join(SOUND_PATH,'drum-'+self.notes[key+1]+'_01.wav')
             )
             for key in range(7)]
 
