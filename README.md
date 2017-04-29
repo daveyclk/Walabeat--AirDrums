@@ -45,7 +45,7 @@ A comprehensive explanation about the Walabot imaging features can be found [her
 
 #### App Settings
 
-* `IMG_PATH`: Path to the piano images.
+* `IMG_PATH`: Path to the drum images.
 * `SOUND_PATH`: Path to the sound files.
 * `APP_X, APP_Y`: (x, y) of left corner of the window (in pixels)
 * `Y_SCALE`: determines the ratio of Y axis that counts as keys range. Used to ignore the edges of the Walabot's arena due to inconsistencies at the edges.
