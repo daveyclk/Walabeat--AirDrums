@@ -12,9 +12,9 @@ This is a simple Walabot game application that acts as an air drums.
 
 #### What does the Walabot Do?
 
-The app uses the Walabot sensor to detect a hand inside it's arena and mimic a piano.  
-The X axis is used to determine if the hand is hovering the keys or pressing them.  
-The Y axis is used to determine the exact key which will be pressed.  
+The app uses the Walabot sensor to detect a hand inside it's arena and mimic drums.  
+The X axis is used to determine if the hand is hovering the drums or hitting them.  
+The Y axis is used to determine the exact drum which will be hit.  
 
 ## How to use
 
